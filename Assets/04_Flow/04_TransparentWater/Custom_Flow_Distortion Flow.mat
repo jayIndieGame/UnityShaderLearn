@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Custom_Flow_Distortion Flow
+  m_Shader: {fileID: 4800000, guid: fb1768f83d48e8444b159811b52ac602, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DerivHeightMap:
+        m_Texture: {fileID: 2800000, guid: 00b74cc3028ae3e41942acce4380fd4a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowMap:
+        m_Texture: {fileID: 2800000, guid: 176f8715cb3f8fd4ab39f06b17166f96, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 4451a4b8c237d2544b33950ba2ec30ff, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _FlowOffset: 0
+    - _FlowStrength: 0.05
+    - _Glossiness: 0.7
+    - _HeightScale: 0.2
+    - _HeightScaleModulated: 10
+    - _Metallic: 0.1
+    - _RefractionStrength: 0.05
+    - _Speed: 0.5
+    - _Tiling: 2
+    - _UJump: 0.24
+    - _VJump: 0.208333
+    - _WaterFogDensity: 0.15
+    m_Colors:
+    - _Color: {r: 0.30588236, g: 0.5137255, b: 0.6627451, a: 0}
+    - _WaterFogColor: {r: 0.25111246, g: 0.43075666, b: 0.5377358, a: 1}
+  m_BuildTextureStacks: []
